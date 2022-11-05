@@ -1,0 +1,15 @@
+/Users/gracelee/Desktop/car-dealership/bin/Debug/net6.0/CarDealership
+/Users/gracelee/Desktop/car-dealership/bin/Debug/net6.0/CarDealership.deps.json
+/Users/gracelee/Desktop/car-dealership/bin/Debug/net6.0/CarDealership.runtimeconfig.json
+/Users/gracelee/Desktop/car-dealership/bin/Debug/net6.0/CarDealership.dll
+/Users/gracelee/Desktop/car-dealership/bin/Debug/net6.0/CarDealership.pdb
+/Users/gracelee/Desktop/car-dealership/obj/Debug/net6.0/CarDealership.csproj.AssemblyReference.cache
+/Users/gracelee/Desktop/car-dealership/obj/Debug/net6.0/CarDealership.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gracelee/Desktop/car-dealership/obj/Debug/net6.0/CarDealership.AssemblyInfoInputs.cache
+/Users/gracelee/Desktop/car-dealership/obj/Debug/net6.0/CarDealership.AssemblyInfo.cs
+/Users/gracelee/Desktop/car-dealership/obj/Debug/net6.0/CarDealership.csproj.CoreCompileInputs.cache
+/Users/gracelee/Desktop/car-dealership/obj/Debug/net6.0/CarDealership.dll
+/Users/gracelee/Desktop/car-dealership/obj/Debug/net6.0/refint/CarDealership.dll
+/Users/gracelee/Desktop/car-dealership/obj/Debug/net6.0/CarDealership.pdb
+/Users/gracelee/Desktop/car-dealership/obj/Debug/net6.0/CarDealership.genruntimeconfig.cache
+/Users/gracelee/Desktop/car-dealership/obj/Debug/net6.0/ref/CarDealership.dll
