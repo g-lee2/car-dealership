@@ -16,9 +16,10 @@ namespace Dealership.Models {
         Miles = miles;
     }
 
-    public void SetPrice(int newPrice)
+    public void SetPrice()
     {
-      Price = newPrice;
+      float salePercent = 0.09f;
+      Price = Price - (int)(Price * salePercent);
     }
 
     public string GetMakeModel()
@@ -41,5 +42,4 @@ namespace Dealership.Models {
       return (Price <= maxPrice);
     }
   }
-
 }
