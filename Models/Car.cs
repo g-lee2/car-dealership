@@ -4,7 +4,6 @@ namespace Dealership.Models {
 
   public class Car
   {
-    // Public auto-implemented properties
     public string MakeModel { get; set; }
     public int Price { get; set; }
     public int Miles { get; set; }
@@ -14,27 +13,6 @@ namespace Dealership.Models {
         MakeModel = makeModel;
         Price = price;
         Miles = miles;
-    }
-
-    public void SetPrice()
-    {
-      float salePercent = 0.09f;
-      Price = Price - (int)(Price * salePercent);
-    }
-
-    public string GetMakeModel()
-    {
-      return MakeModel;
-    }
-
-    public int GetPrice()
-    {
-      return Price;
-    }
-
-    public int GetMiles()
-    {
-      return Miles;
     }
 
     public bool WorthBuying(int maxPrice)
