@@ -18,14 +18,11 @@ namespace Dealership {
 
       List<Car> Cars = new List<Car>() { volkswagen, yugo, ford, amc };
 
-      // yugo.SetPrice(300);
-
       Console.WriteLine("Enter maximum price: ");
       string stringMaxPrice = Console.ReadLine();
       int maxPrice = int.Parse(stringMaxPrice);
-      if (maxPrice > 1000) {
-
-      }
+      
+      yugo.Price = 300;
 
       List<Car> CarsMatchingSearch = new List<Car>(0);
 
@@ -42,7 +39,9 @@ namespace Dealership {
         Console.WriteLine("----------------------");
         Console.WriteLine(automobile.MakeModel);
         Console.WriteLine(automobile.Miles + " miles");
+        Console.WriteLine("$" + automobile.SalePrice());
         Console.WriteLine("$" + automobile.Price);
+        Console.WriteLine(Car.MakeSound("Beep"));
       }
     }
   }

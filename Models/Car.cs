@@ -1,5 +1,3 @@
-using System;
-
 namespace Dealership.Models {
 
   public class Car
@@ -14,10 +12,19 @@ namespace Dealership.Models {
         Price = price;
         Miles = miles;
     }
+    public double SalePrice()
+    {
+      return Price - (Price * 0.05); 
+    }
 
     public bool WorthBuying(int maxPrice)
     {
       return (Price <= maxPrice);
+    }
+
+    public static string MakeSound(string sound)
+    {
+      return "Our cars sound like: " + sound;
     }
   }
 }
