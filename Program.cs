@@ -10,9 +10,6 @@ namespace Dealership {
     {
       Car volkswagen = new Car("1974 Volkswagen Thing", 1100, 368792);
       Car yugo = new Car("1980 Yugo Koral", 700, 56000);
-        // Console.WriteLine(yugo.MakeModel);
-        // yugo.MakeModel = "Worst Car Ever";
-        // Console.WriteLine(yugo.MakeModel);
       Car ford = new Car("1988 Ford Country Squire", 1400, 239001);
       Car amc = new Car("1976 AMC Pacer", 400, 198000);
 
@@ -28,6 +25,14 @@ namespace Dealership {
 
       foreach (Car automobile in Cars)
       {
+        Random rnd = new Random();
+        double number = rnd.NextDouble();
+
+        if (number <= 0.50) 
+        {
+          automobile.SalePrice();
+        }
+        
         if (automobile.WorthBuying(maxPrice))
         {
           CarsMatchingSearch.Add(automobile);
@@ -39,7 +44,6 @@ namespace Dealership {
         Console.WriteLine("----------------------");
         Console.WriteLine(automobile.MakeModel);
         Console.WriteLine(automobile.Miles + " miles");
-        Console.WriteLine("$" + automobile.SalePrice());
         Console.WriteLine("$" + automobile.Price);
         Console.WriteLine(Car.MakeSound("Beep"));
       }

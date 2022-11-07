@@ -14,7 +14,7 @@ namespace Dealership.Models {
     }
     public double SalePrice()
     {
-      return Price - (Price * 0.05); 
+      return Price -= (int)(Price * 0.05); 
     }
 
     public bool WorthBuying(int maxPrice)
